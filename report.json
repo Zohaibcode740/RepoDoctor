@@ -1,0 +1,81 @@
+{
+  "path": "C:\\Users\\zohai\\Desktop\\pdf\\repodoctor",
+  "score": 66,
+  "checks": [
+    {
+      "id": "readme-quality",
+      "name": "README Quality",
+      "category": "Documentation",
+      "severity": "info",
+      "passed": true,
+      "score": 70,
+      "message": "README contains basic installation and usage information."
+    },
+    {
+      "id": "license",
+      "name": "License",
+      "category": "Open Source",
+      "severity": "warning",
+      "passed": false,
+      "score": 0,
+      "message": "No license file found.",
+      "recommendation": "Add an appropriate open-source license such as MIT."
+    },
+    {
+      "id": "tests",
+      "name": "Tests",
+      "category": "Quality",
+      "severity": "info",
+      "passed": true,
+      "score": 100,
+      "message": "Framework: Vitest, 2 test file(s), test script configured, test directory found."
+    },
+    {
+      "id": "gitignore-env",
+      "name": ".gitignore",
+      "category": "Repository",
+      "severity": "info",
+      "passed": true,
+      "score": 100,
+      "message": ".gitignore exists and ignores .env."
+    },
+    {
+      "id": "github-actions",
+      "name": "GitHub Actions",
+      "category": "CI/CD",
+      "severity": "info",
+      "passed": true,
+      "score": 100,
+      "message": "1 workflow(s) found, Node setup, dependencies installed, tests executed, build executed, dependency caching, security audit."
+    },
+    {
+      "id": "links",
+      "name": "Documentation Links",
+      "category": "Documentation",
+      "severity": "info",
+      "passed": true,
+      "score": 100,
+      "message": "Checked 0 link(s). No broken local links found."
+    },
+    {
+      "id": "dependencies",
+      "name": "Dependencies",
+      "category": "Dependencies",
+      "severity": "critical",
+      "passed": false,
+      "score": 28,
+      "message": "8 dependencies checked. 5 major, 2 minor, 0 patch update(s) available.",
+      "recommendation": "Major updates: chalk ^5.4.1 -> 6.0.0, commander ^14.0.0 -> 15.0.0, ora ^8.2.0 -> 9.4.1, @types/node ^24.13.3 -> 26.2.0, typescript ^5.9.0 -> 7.0.2\n  Minor updates: tar ^7.4.3 -> 7.5.22, tsx ^4.20.0 -> 4.23.12"
+    },
+    {
+      "id": "secrets",
+      "name": "Secret Detection",
+      "category": "Security",
+      "severity": "info",
+      "passed": true,
+      "score": 100,
+      "message": "Scanned 19 text file(s). No obvious secrets detected."
+    }
+  ],
+  "github": null
+}
