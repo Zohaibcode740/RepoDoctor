@@ -429,5 +429,3 @@ Project: [RepoDoctor](https://github.com/Zohaibcode740/RepoDoctor)
 ## ⭐ Support
 
 If RepoDoctor is useful to you, consider giving the repository a ⭐ on GitHub.
-
-More improvements are coming as the project moves toward its installer and public release.
